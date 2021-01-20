@@ -1,0 +1,21 @@
+#filler {
+  width: 15vw;
+
+  @media (max-width: 750px) {
+    width: 0;
+  }
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  flex-grow: 1;
+  overflow-y: hidden;
+  width: 80vw;
+
+  @media (max-width: 750px) {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+}

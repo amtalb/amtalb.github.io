@@ -1,0 +1,38 @@
+{
+  "name": "amtalb_personal_website",
+  "private": true,
+  "description": "The spledid and fabulous website of Alexander Talbott",
+  "version": "2.0.0",
+  "author": "Alexander Talbott",
+  "dependencies": {
+    "gatsby": "^2.23.3",
+    "gatsby-plugin-sass": "^2.3.4",
+    "node-sass": "^4.14.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-media-hook": "^0.4.7"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "gatsby",
+    "AlexTalbott",
+    "PersonalWebsite"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amtalb/personal_website"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}

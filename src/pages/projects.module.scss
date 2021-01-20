@@ -1,0 +1,22 @@
+.project-list-item {
+
+  @media (max-width: 450px) {
+    flex-flow: column;
+  }
+
+  .project-list-info {
+
+    @media (max-width: 450px) {
+      padding: 0;
+      padding-bottom: 25px;
+    }
+
+    h3 {
+
+      @media (max-width: 450px) {
+        margin: 5px auto;
+        width: fit-content;
+      }
+    }
+  }
+}
