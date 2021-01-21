@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[9],{F2CN:function(e,t,n){"use strict";n.r(t);var i=n("q1tI"),r=n.n(i),o=n("rO7N"),a=n.n(o);n("VbiY");t.default=function(){return r.a.createElement("iframe",{title:"Resume of Alexander Talbott",src:a.a+"#toolbar=0",style:{width:"100vw",height:"100vh"}})}},VbiY:function(e,t,n){},rO7N:function(e,t,n){e.exports=n.p+"static/resume-dddb7e954292064979ef44b70d8d536e.pdf"}}]);
+//# sourceMappingURL=component---src-pages-resume-js-1eb27d016f18a2f05c33.js.map
