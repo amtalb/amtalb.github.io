@@ -51,7 +51,7 @@ const Projects = () => (
         <li>
           <Project
             alt="SizeUp Project Thumbnail"
-            link="https://sizeup.alexandermtalbott.com"
+            link="https://amtalb.github.io/SizeUp"
             title="SizeUp"
             description="A site that finds countries of similar size (with cool spinning globes!). Written in Elm."
             git="https://github.com/amtalb/sizeup">
