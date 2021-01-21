@@ -1,9 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=PT+Sans');
 @import url('https://fonts.googleapis.com/css?family=Hepta+Slab');
 
 
 * {
-  font-family: 'PT Sans', sans-serif;
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
@@ -20,8 +18,18 @@ h1, h2, h3 {
   font-family: 'Hepta Slab', serif;
 }
 
+h3, p {
+  a {
+    color: #420420;
+    border-bottom: 2px solid #420420;
+  }
+}
+
 a {
   text-decoration: none;
+  text-shadow: none;
+  background-image: none;
+  color: black;
 }
 
 ul {

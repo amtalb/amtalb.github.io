@@ -1,14 +1,22 @@
 import React from "react"
 
+import Contact from "../components/contact"
+
 import styles from "./layout.module.scss"
 
 export default function Layout({ children }) {
   return (
-    <div id="container" style={{height: "100vh", width: "100vw", display: "flex", backgroundColor: "#F9F1E5" }}>
-      <div id={styles.filler}></div>
-      <div id={styles.content}>
+    <main id="container" style={{
+      display: "flex", flexFlow: "column", backgroundColor: "#FFFFF0"
+    }}>
+      <div id={styles.content} style={{ minHeight: "100vh", margin: "0 auto", padding: "0 5%" }}>
         {children}
       </div>
-    </div>
+      <div style={{ backgroundColor: "#E7E7D9", width: "100%" }}>
+        <div style={{ display: "flex", padding: "2rem", maxWidth: "50rem", margin: "0 auto" }}>
+          <Contact></Contact>
+        </div>
+      </div>
+    </main >
   )
 }

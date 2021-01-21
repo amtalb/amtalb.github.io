@@ -2,28 +2,18 @@ import React from "react"
 
 import styles from "./projects.module.scss"
 
-import tempImg from "../images/project-global-temp.jpg"
-import cfbEloImg from "../images/project-cfb-elo.jpg"
-import ausImg from "../images/project-australian-wildfires.png"
-import covidImg from "../images/project-covid-19.png"
-import sizeupImg from "../images/project-sizeup.png"
-import wofImg from "../images/project-wheel-of-fortune.jpg"
-import pccrImg from "../images/project-pccr.png"
-
 import Layout from "../components/layout"
 import NavBar from "../components/navbar"
 import Text from "../components/text"
 import Project from "../components/project"
 
-const About = () => (
+const Projects = () => (
   <Layout>
     <NavBar></NavBar>
     <Text>
-      <h1>Projects</h1>
-      <ul style={{ paddingLeft: "0" }}>
+      <ul style={{ paddingLeft: "0", marginLeft: "0" }}>
         <li>
           <Project
-            img={tempImg}
             alt="Global Land Temperatures"
             link="https://global-land-temperatures.web.app/"
             title="Global Land Temperatures"
@@ -33,7 +23,6 @@ const About = () => (
         </li>
         <li>
           <Project
-            img={cfbEloImg}
             alt="College Football Elo Rankings"
             link="https://college-football-elo.herokuapp.com/"
             title="College Football Elo Rankings"
@@ -43,7 +32,6 @@ const About = () => (
         </li>
         <li>
           <Project
-            img={ausImg}
             alt="Australian Wildfires 2019-2020 Visualization"
             link="https://au-wildfires.web.app/"
             title="Australian Wildfires 2019-2020 Visualization"
@@ -53,7 +41,6 @@ const About = () => (
         </li>
         <li>
           <Project
-            img={covidImg}
             alt="COVID-19 Visualization"
             link="https://covid-19-520bc.web.app/"
             title="COVID-19 Visualization"
@@ -63,7 +50,6 @@ const About = () => (
         </li>
         <li>
           <Project
-            img={sizeupImg}
             alt="SizeUp Project Thumbnail"
             link="https://sizeup.alexandermtalbott.com"
             title="SizeUp"
@@ -73,7 +59,6 @@ const About = () => (
         </li>
         <li>
           <Project
-            img={wofImg}
             alt="Wheel of Fortune Project Thumbnail"
             link="https://github.com/amtalb/wheel_of_fortune"
             title="Wheel of Fortune Final Question Analysis"
@@ -83,7 +68,6 @@ const About = () => (
         </li>
         <li>
           <Project
-            img={pccrImg}
             alt="PCCR Project Thumbnail"
             link="https://pccr.alexandermtalbott.com"
             title="PC/CR Website"
@@ -96,4 +80,4 @@ const About = () => (
   </Layout>
 )
 
-export default About 
+export default Projects 
