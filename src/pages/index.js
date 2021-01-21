@@ -17,7 +17,7 @@ const IndexPage = () => (
     </p>
     <p>
       On my own time, I enjoy being out in nature, learning something new (I'm a huge history buff as you'll see in my blog), cooking, and
-      spending time with my cat.
+      spending time with my cat, Linus.
       My main goal for the future is to learn a lot while I'm in grad school and have fun doing it. Thinking longer term, I would like to pursue
       a Ph.D. and lead a research-based career. More personally, I'd like to continue to travel and to learn at least a couple more languages
       (human and programming).
