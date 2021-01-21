@@ -4,4 +4,4 @@ public
 .firebase
 .cache
 .github*
-
+.env
