@@ -24,7 +24,7 @@ const Projects = () => (
         <li>
           <Project
             alt="College Football Elo Rankings"
-            link="https://college-football-elo.herokuapp.com/"
+            link="https://share.streamlit.io/amtalb/college_football_elo/src/main.py"
             title="College Football Elo Rankings"
             description="My attempt to bring Elo rankings to college football and prove to everyone the SEC is overrated. Made in Python using Streamlit."
             git="https://github.com/amtalb/college_football_elo">
