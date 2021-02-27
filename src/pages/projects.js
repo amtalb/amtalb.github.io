@@ -14,29 +14,11 @@ const Projects = () => (
       <ul style={{ paddingLeft: "0", marginLeft: "0" }}>
         <li>
           <Project
-            alt="Global Land Temperatures"
-            link="https://global-land-temperatures.web.app/"
-            title="Global Land Temperatures"
-            description="A viz of rising land temperatures in the US. Data from Kaggle"
-            git="https://github.com/amtalb/global_land_temp">
-          </Project>
-        </li>
-        <li>
-          <Project
             alt="College Football Elo Rankings"
             link="https://share.streamlit.io/amtalb/college_football_elo/src/main.py"
             title="College Football Elo Rankings"
             description="My attempt to bring Elo rankings to college football and prove to everyone the SEC is overrated. Made in Python using Streamlit."
             git="https://github.com/amtalb/college_football_elo">
-          </Project>
-        </li>
-        <li>
-          <Project
-            alt="Australian Wildfires 2019-2020 Visualization"
-            link="https://au-wildfires.web.app/"
-            title="Australian Wildfires 2019-2020 Visualization"
-            description="A small viz of the 19-20 Australian wildfire season. Made using R and the gganimate package."
-            git="https://github.com/amtalb/australian_wildfires">
           </Project>
         </li>
         <li>
