@@ -48,15 +48,6 @@ const Projects = () => (
             git="https://github.com/amtalb/wheel_of_fortune">
           </Project>
         </li>
-        <li>
-          <Project
-            alt="PCCR Project Thumbnail"
-            link="https://pccr.alexandermtalbott.com"
-            title="PC/CR Website"
-            description="A website covering everything about my time in the Peace Corps. Made from scratch using Bootstrap."
-            git="">
-          </Project>
-        </li>
       </ul>
     </Text>
   </Layout>
