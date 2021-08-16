@@ -120,61 +120,61 @@ export default function NavBar() {
                 }
               >
                 Projects
-          </Link>
+              </Link>
+            </li>
+            <li className="navListItem">
+              <Link to="/research/"
+                className={styles.navLinks}
+                onMouseOver={() => {
+                  changeColors([255, 255, 240], [255, 208, 70], 'bg');
+                  changeColors([169, 169, 169], [36, 30, 78], 'nav')
+                }
+                }
+                onMouseOut={() => {
+                  changeColors([255, 208, 70], [255, 255, 240], 'bg');
+                  changeColors([36, 30, 78], [169, 169, 169], 'nav')
+                }
+                }
+                onFocus={() => {
+                  changeColors([255, 255, 240], [255, 208, 70], 'bg');
+                  changeColors([169, 169, 169], [36, 30, 78], 'nav')
+                }
+                }
+                onBlur={() => {
+                  changeColors([255, 208, 70], [255, 255, 240], 'bg');
+                  changeColors([36, 30, 78], [169, 169, 169], 'nav')
+                }
+                }
+              >
+                Research
+              </Link>
             </li>
             <li className="navListItem">
               <Link to="/resume/"
                 className={styles.navLinks}
                 onMouseOver={() => {
-                  changeColors([255, 255, 240], [255, 208, 70], 'bg');
-                  changeColors([169, 169, 169], [36, 30, 78], 'nav')
+                  changeColors([255, 255, 240], [10, 129, 209], 'bg');
+                  changeColors([169, 169, 169], [244, 235, 232], 'nav')
                 }
                 }
                 onMouseOut={() => {
-                  changeColors([255, 208, 70], [255, 255, 240], 'bg');
-                  changeColors([36, 30, 78], [169, 169, 169], 'nav')
+                  changeColors([10, 129, 209], [255, 255, 240], 'bg');
+                  changeColors([244, 235, 232], [169, 169, 169], 'nav')
                 }
                 }
                 onFocus={() => {
-                  changeColors([255, 255, 240], [255, 208, 70], 'bg');
-                  changeColors([169, 169, 169], [36, 30, 78], 'nav')
+                  changeColors([255, 255, 240], [10, 129, 209], 'bg');
+                  changeColors([169, 169, 169], [244, 235, 232], 'nav')
                 }
                 }
                 onBlur={() => {
-                  changeColors([255, 208, 70], [255, 255, 240], 'bg');
-                  changeColors([36, 30, 78], [169, 169, 169], 'nav')
+                  changeColors([10, 129, 209], [255, 255, 240], 'bg');
+                  changeColors([244, 235, 232], [169, 169, 169], 'nav')
                 }
                 }
               >
                 Resume
-          </Link>
-            </li>
-            <li className="navListItem">
-              <Link to="/blog/"
-                className={styles.navLinks}
-                onMouseOver={() => {
-                  changeColors([255, 255, 240], [10, 129, 209], 'bg');
-                  changeColors([169, 169, 169], [244, 235, 232], 'nav')
-                }
-                }
-                onMouseOut={() => {
-                  changeColors([10, 129, 209], [255, 255, 240], 'bg');
-                  changeColors([244, 235, 232], [169, 169, 169], 'nav')
-                }
-                }
-                onFocus={() => {
-                  changeColors([255, 255, 240], [10, 129, 209], 'bg');
-                  changeColors([169, 169, 169], [244, 235, 232], 'nav')
-                }
-                }
-                onBlur={() => {
-                  changeColors([10, 129, 209], [255, 255, 240], 'bg');
-                  changeColors([244, 235, 232], [169, 169, 169], 'nav')
-                }
-                }
-              >
-                Blog
-          </Link>
+              </Link>
             </li>
           </ul>
         </nav>

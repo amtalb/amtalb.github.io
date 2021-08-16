@@ -14,20 +14,20 @@ const Projects = () => (
       <ul style={{ paddingLeft: "0", marginLeft: "0" }}>
         <li>
           <Project
+            alt="Pennsylvania multi-member district proposal"
+            link="https://arcg.is/1y09zT"
+            title="Pennsylvania multi-member district proposal"
+            description="A proposal for multi-member Congressional districts in Pennsylvania. Made using ArcGIS as a part of the 90-802 GIS class."
+            git="https://arcg.is/1y09zT">
+          </Project>
+        </li>
+        <li>
+          <Project
             alt="College Football Elo Rankings"
             link="https://share.streamlit.io/amtalb/college_football_elo/src/main.py"
             title="College Football Elo Rankings"
             description="My attempt to bring Elo rankings to college football and prove to everyone the SEC is overrated. Made in Python using Streamlit."
             git="https://github.com/amtalb/college_football_elo">
-          </Project>
-        </li>
-        <li>
-          <Project
-            alt="COVID-19 Visualization"
-            link="https://covid-19-520bc.web.app/"
-            title="COVID-19 Visualization"
-            description="A quick visualization of the spread of COVID-19 around the world. Made using R and the plotly library."
-            git="https://github.com/amtalb/covid-19_visualization">
           </Project>
         </li>
         <li>
@@ -53,4 +53,4 @@ const Projects = () => (
   </Layout>
 )
 
-export default Projects 
+export default Projects
