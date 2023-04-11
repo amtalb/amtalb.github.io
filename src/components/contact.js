@@ -22,7 +22,7 @@ export default function Contact() {
                 </li>
                 <li className={styles.contactLink}>
                     <a href="https://github.com/amtalb/">
-                        <img src="https://img.icons8.com/material-sharp/24/000000/github.png/" alt="GitHub Icon" />
+                        <img src="https://icons8.com/icon/62856/github" alt="GitHub Icon" />
                     </a>
                 </li>
             </ul>
