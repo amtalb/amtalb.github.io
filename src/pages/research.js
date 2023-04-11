@@ -15,9 +15,9 @@ const Research = () => (
                 <li>
                     <Paper
                         alt="An overview of multi-member districts: an analysis of the United States and New Zealand"
-                        link=""
+                        link="/mmd-paper/"
                         title="An overview of multi-member districts: an analysis of the United States and New Zealand"
-                        description="Independent research project done under the supervision of Dr. Silvia Borzutzky regarding multi-member districts. The research covers the history of MMDs in the United States, the electoral systems associated with MMDs, and an analysis of the 1993 New Zealand electoral reform to proportional representation and multi-member districts. PAPER COMING SOON">
+                        description="Independent research project done under the supervision of Dr. Silvia Borzutzky regarding multi-member districts. The research covers the history of MMDs in the United States, the electoral systems associated with MMDs, and an analysis of the 1993 New Zealand electoral reform to proportional representation and multi-member districts.">
                     </Paper>
                 </li>
                 <li>
