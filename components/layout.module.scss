@@ -1,0 +1,12 @@
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow-y: hidden;
+  margin: 0 auto;
+
+  @media (max-width: 750px) {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+}

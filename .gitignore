@@ -1,7 +1,3 @@
+.next
 node_modules
-public
-.firebaserc
-.firebase
-.cache
-.github*
-.env
+package-lock.json

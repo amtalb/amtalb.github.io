@@ -1,11 +1,19 @@
 language: node_js
-before_script:
-  - npm install -g gatsby
 node_js:
-  - "10"
+  - 18.15.0
+cache:
+  directories:
+  - node_modules
+script:
+  - npm run build
+  - npm run export
+  - touch out/.nojekyll
 deploy:
-  provider: script
-  script: cd docs/ && yarn install && yarn run deploy
+  provider: pages
   skip_cleanup: true
+  github_token: $github_token
+  local_dir: out
   on:
-    branch: master
+    all_branches: true
+    condition: $TRAVIS_BRANCH =~ ^(master|main)$
+

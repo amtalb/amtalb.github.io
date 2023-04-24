@@ -1,0 +1,13 @@
+.skillBar {
+    border-top: 2px solid #ABABAB;
+    margin: 10px 0;
+    position: relative;
+}
+
+.skillCircle {
+    content: "";
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ABABAB;
+    border-radius: 15px;
+}

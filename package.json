@@ -1,50 +1,16 @@
 {
-  "name": "amtalb_personal_website",
-  "private": true,
-  "description": "The spledid and fabulous website of Alexander Talbott",
-  "version": "2.0.0",
-  "author": "Alexander Talbott",
   "dependencies": {
-    "gatsby": "^2.31.0",
-    "gatsby-plugin-manifest": "^2.11.0",
-    "gatsby-plugin-react-helmet": "^3.9.0",
-    "gatsby-plugin-sass": "^2.3.4",
-    "gatsby-plugin-sharp": "^2.13.1",
-    "gatsby-plugin-typography": "^2.11.0",
-    "gatsby-transformer-remark": "^2.15.0",
-    "node-sass": "^4.14.1",
-    "prop-types": "^15.7.2",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-helmet": "^6.1.0",
-    "react-media-hook": "^0.4.7",
-    "react-typography": "^0.16.19",
-    "typography": "^0.16.19",
-    "typography-theme-doelger": "^0.16.19"
+    "next": "^13.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-simple-maps": "^3.0.0",
+    "react-tabs": "^6.0.0",
+    "sass": "^1.62.0"
   },
-  "devDependencies": {
-    "gh-pages": "^3.1.0"
-  },
-  "keywords": [
-    "gatsby",
-    "AlexTalbott",
-    "PersonalWebsite"
-  ],
-  "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public -r https://$GH_TOKEN@github.com/amtalb/amtalb.github.io"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/amtalb/amtalb.github.io"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   }
 }

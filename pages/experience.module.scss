@@ -1,0 +1,28 @@
+.experienceContainer {
+    padding: 10px 0;
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 82vh;
+
+    .yearBox {
+        height: 10.4%;
+        border-bottom: 1px solid #ADADAD;
+        position: relative;
+
+        span {
+            color: #ADADAD;
+            font-size: 2vh;
+            position: absolute;
+            bottom: 0;
+        }
+    }
+
+    .experience {
+        border-width: 2px;
+        border-style: solid;
+        border-radius: 15px;
+        padding: 0;
+        flex-grow: 1;
+    }
+}
