@@ -38,6 +38,15 @@ const Projects = () => (
         </li>
         <li>
           <Project
+            alt="SizeUp"
+            link="https://amtalb.github.io/SizeUp/"
+            title="SizeUp"
+            description="An app that lets you pick a country and find the country in the world that is closest to it in size (by total area). With cool spinning globes!"
+            git="https://github.com/amtalb/SizeUp">
+          </Project>
+        </li>
+        <li>
+          <Project
             alt="College Football Elo Rankings"
             link="https://cfb-elo.streamlit.app/"
             title="College Football Elo Rankings"
