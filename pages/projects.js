@@ -12,11 +12,11 @@ const Projects = () => (
       <ul style={{ paddingLeft: "0", marginLeft: "0" }}>
         <li>
           <Project
-            alt="Heisman Prediction"
-            link="https://amtalb-heisman-prediction-appapp-gxc9bb.streamlit.app/"
-            title="Heisman Prediction"
-            description="A machine learning application that ingests data, processes it, and predicts college football Heisman Trophy winners."
-            git="https://github.com/amtalb/heisman_prediction">
+            alt="ESPN Newsletter"
+            link="https://github.com/amtalb/espn_newsletter"
+            title="ESPN Newsletter"
+            description="ESPN discontinued their email newsletter, which is a real bummer sports and newsletter nerds like myself, so I made a new one! In Clojure!"
+            git="https://github.com/amtalb/espn_newsletter">
           </Project>
         </li>
         <li>
