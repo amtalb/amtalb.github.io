@@ -9,19 +9,20 @@ const Skills = () => (
         <div style={{ display: "flex", width: "100%" }}>
             <div style={{ display: "flex", flexFlow: "column", flexGrow: "1" }}>
                 <Skill name="Amazon Web Services" width="30%"></Skill>
-                <Skill name="Database System Design" width="40%"></Skill>
-                <Skill name="Databricks" width="60%"></Skill>
+                <Skill name="Clojure" width="30%"></Skill>
+                <Skill name="Compilers/Programming Languages" width="20%"></Skill>
+                <Skill name="Databricks" width="70%"></Skill>
                 <Skill name="Git" width="80%"></Skill>
                 <Skill name="Linux" width="65%"></Skill>
-                <Skill name="Machine Learning" width="70%"></Skill>
-                <Skill name="Matplotlib" width="70%"></Skill>
-                <Skill name="NLP" width="75%"></Skill>
-                <Skill name="NumPy" width="80%"></Skill>
-                <Skill name="Pandas" width="80%"></Skill>
+                <Skill name="Machine Learning" width="50%"></Skill>
+                <Skill name="Natural Language Processing" width="55%"></Skill>
+                <Skill name="NumPy" width="70%"></Skill>
+                <Skill name="Pandas" width="70%"></Skill>
                 <Skill name="Python" width="80%"></Skill>
                 <Skill name="Relational Databases" width="75%"></Skill>
-                <Skill name="Scala" width="10%"></Skill>
-                <Skill name="Sci-kit Learn" width="60%"></Skill>
+                <Skill name="Rust" width="40%"></Skill>
+                <Skill name="Sci-kit Learn" width="40%"></Skill>
+                <Skill name="Spark/PySpark" width="70%"></Skill>
                 <Skill name="SQL" width="75%"></Skill>
             </div>
         </div>
