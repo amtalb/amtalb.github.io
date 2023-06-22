@@ -10,7 +10,7 @@ const Skills = () => (
             <div style={{ display: "flex", flexFlow: "column", flexGrow: "1" }}>
                 <Skill name="Amazon Web Services" width="30%"></Skill>
                 <Skill name="Clojure" width="30%"></Skill>
-                <Skill name="Compilers/Programming Languages" width="20%"></Skill>
+                <Skill name="Compilers" width="20%"></Skill>
                 <Skill name="Databricks" width="70%"></Skill>
                 <Skill name="Git" width="80%"></Skill>
                 <Skill name="Linux" width="65%"></Skill>
