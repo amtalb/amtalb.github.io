@@ -116,7 +116,7 @@ const Experience = () => (
       </div>
       {/* right */}
       <div style={{ width: "46%", marginLeft: "1%", display: "flex", flexFlow: "column", justifyContent: "space-between" }}>
-        <ExperienceItem name="Deloitte" title="Data Engineer" timeRange="Jun. 2022 - Present" id="deloitte"></ExperienceItem>
+        <ExperienceItem name="Deloitte" title="Applied AI Consultant" timeRange="Jun. 2022 - Present" id="deloitte"></ExperienceItem>
         <ExperienceItem name="Carnegie Mellon University" title="M.S. Public Policy & Management, Data Analytics track" timeRange="Aug. 2020 - May 2022" id="cmu"></ExperienceItem>
         <ExperienceItem name="AI for Good Foundation" title="AI/Policy Research Fellow" timeRange="Oct. 2020 - Sep. 2021" id="aiforgood"></ExperienceItem>
         <ExperienceItem name="Peace Corps Costa Rica" title="Community Economic Development Volunteer" timeRange="Feb. 2018 - Mar. 2020" id="peace_corps"></ExperienceItem>
