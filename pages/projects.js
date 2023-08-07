@@ -29,6 +29,15 @@ const Projects = () => (
         </li>
         <li>
           <Project
+            alt="Natural Language Processing Final Project"
+            link="https://github.com/amtalb/11-611_NLP_Project/"
+            title="Novel Wikipedia Q&A system"
+            description="A novel approach to a question and answering system using Wikipedia pages as input. Made with a team using Python, Transformers, RDF triples, and more as a part of the 11-611 NLP classes."
+            git="https://github.com/amtalb/11-611_NLP_Project/">
+          </Project>
+        </li>
+        <li>
+          <Project
             alt="Pennsylvania multi-member district proposal"
             link="https://arcg.is/1y09zT"
             title="Pennsylvania multi-member district proposal"
