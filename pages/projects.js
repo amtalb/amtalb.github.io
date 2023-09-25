@@ -12,6 +12,15 @@ const Projects = () => (
       <ul style={{ paddingLeft: "0", marginLeft: "0" }}>
         <li>
           <Project
+            alt="Kaathe the LLM"
+            link="https://github.com/amtalb/kaathe"
+            title="Kaathe (A Dark Souls-themed LLM-powered Chatbot)"
+            description="Kaathe is an open-source-LLM-powered chatbot that can answer questions about the hit video game Dark Souls."
+            git="https://github.com/amtalb/kaathe">
+          </Project>
+        </li>
+        <li>
+          <Project
             alt="ESPN Newsletter"
             link="https://github.com/amtalb/espn_newsletter"
             title="ESPN Newsletter"
